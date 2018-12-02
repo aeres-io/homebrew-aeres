@@ -6,7 +6,7 @@ class Aeres < Formula
 
   depends_on "openssl"
   depends_on "nss"
-  depends_on "nsps"
+  depends_on "nspr"
 
   def install
     bin.install "aeres"
